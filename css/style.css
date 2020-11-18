@@ -38,6 +38,9 @@ body{
 }
 .header video{
 	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -45,7 +48,8 @@ body{
 }
 .header h1{
 	width: 80%;
-	height: 20%;
+	height: auto;
+	padding: 10px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -56,7 +60,7 @@ body{
 	font-weight: 300;
 	text-shadow: 2px 0 10px rgba(51,51,51,.34);
 	margin-bottom: .6em;
-	font-family: "Roboto", sans-serif;
+	font-family: "Goldman", sans-serif;
 	z-index: 2;
 }
 .menu{
@@ -225,4 +229,230 @@ body{
 }
 .web{
 	color: #ffcc00;
+}
+
+@media (min-width: 1201px) and (max-width: 1600px){
+
+
+}
+@media (min-width: 1025px) and (max-width: 1200px){
+
+	
+}
+@media (min-width: 841px) and (max-width: 1024px){
+
+	
+}
+@media (min-width: 769px) and (max-width: 840px){
+	.cnt-1, .cnt-2{
+		width: 50%;
+	}
+}
+@media (min-width: 601px) and (max-width: 768px){
+	.cnt-1, .cnt-2{
+		width: 50%;
+	}
+}
+@media (min-width: 481px) and (max-width: 600px){
+	.header{
+		width: 100%;
+		height: 100vh;
+		background: rgb(0,0,0);
+		background: linear-gradient(180deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.35) 50%, rgba(0,0,0,0.9) 90%);
+	}
+	.header img{
+		width: 50%;
+		height: auto;
+
+	}
+	.header h1{
+		width: auto;
+		height: auto;
+		padding: 10px;
+		font: 120%/135% "Goldman", sans-serif;
+		text-align: center;
+	}
+	.header video{
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center;
+	}
+	.menu .op{
+		font: 78%/135% "Goldman", sans-serif;
+	}
+	.content{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.cnt-1{
+		width: 100%;
+	}
+	.cnt{
+		width: 100%;
+	}
+	.cnt-img{
+		width: 65%;
+	}
+	.cnt-img p, .cnt-img a{
+		font: 78%/135% "Goldman", sans-serif;
+	}
+	.cnt-2{
+		width: 100%;
+	}
+	.cnt-2-1{
+		width: 100%;
+	}
+	.cnt-2-1 img{
+		width: 100%;
+	}
+	.footer{
+		height: 100vh;
+	}
+	.logo img{
+		width: 50%;
+		height: auto;
+	}
+	.fuentes{
+		display: flex;
+		flex-direction: column;
+		height: auto;
+		margin-bottom: 20px;
+	}
+}
+@media (min-width: 321px) and (max-width: 480px){
+	.header{
+		width: 100%;
+		height: 100vh;
+		background: rgb(0,0,0);
+		background: linear-gradient(180deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.35) 50%, rgba(0,0,0,0.9) 90%);
+	}
+	.header img{
+		width: 50%;
+		height: auto;
+
+	}
+	.header h1{
+		width: auto;
+		height: auto;
+		padding: 10px;
+		font: 120%/135% "Goldman", sans-serif;
+		text-align: center;
+	}
+	.header video{
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center;
+	}
+	.menu .op{
+		font: 78%/135% "Goldman", sans-serif;
+	}
+	.content{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.cnt-1{
+		width: 100%;
+
+	}
+	.cnt-img{
+		width: 65%;
+	}
+	.cnt-img p, .cnt-img a{
+		font: 78%/135% "Goldman", sans-serif;
+	}
+	.cnt-2{
+		width: 100%;
+	}
+	.cnt-2-1{
+		width: 100%;
+	}
+	.cnt-2-1 img{
+		width: 100%;
+	}
+	.footer{
+		height: 100vh;
+	}
+	.logo img{
+		width: 50%;
+		height: auto;
+	}
+	.fuentes{
+		display: flex;
+		flex-direction: column;
+		height: auto;
+		margin-bottom: 20px;
+	}
+}
+@media (max-width: 320px){
+	.header{
+		width: 100%;
+		height: 100vh;
+		background: rgb(0,0,0);
+		background: linear-gradient(180deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.35) 50%, rgba(0,0,0,0.9) 90%);
+	}
+	.header img{
+		width: 50%;
+		height: auto;
+
+	}
+	.header h1{
+		width: auto;
+		height: auto;
+		padding: 10px;
+		font: 120%/135% "Goldman", sans-serif;
+		text-align: center;
+	}
+	.header video{
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center;
+	}
+	.menu .op{
+		font: 78%/135% "Goldman", sans-serif;
+	}
+	.content{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.cnt-1{
+		width: 100%;
+
+	}
+	.cnt-img{
+		width: 65%;
+	}
+	.cnt-img p, .cnt-img a{
+		font: 78%/135% "Goldman", sans-serif;
+	}
+	.cnt-2{
+		width: 100%;
+	}
+	.cnt-2-1{
+		width: 100%;
+	}
+	.cnt-2-1 img{
+		width: 100%;
+	}
+	.footer{
+		height: 100vh;
+	}
+	.logo img{
+		width: 50%;
+		height: auto;
+	}
+	.fuentes{
+		display: flex;
+		flex-direction: column;
+		height: auto;
+		margin-bottom: 20px;
+	}
 }
